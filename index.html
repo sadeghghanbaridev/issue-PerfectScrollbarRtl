@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="perfect-scrollbar.css">
+    <style>
+        html {
+            direction: rtl
+        }
+
+  #container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+  }
+</style>
+</head>
+<body>
+
+
+<div id="container">
+    <img src="https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg">
+</div>
+
+
+
+<script type="text/javascript" src="perfect-scrollbar.min.js"></script>
+
+<script type="text/javascript">
+    const ps = new PerfectScrollbar('#container', {
+    suppressScrollX : true
+  });    
+</script>
+
+</body>
+</html>
